@@ -2,6 +2,10 @@
 
 A React portfolio application for discovering, filtering, comparing, and saving countries.
 
+## Live Demo
+
+[Open World Explorer](https://heyworldexplorer.netlify.app/)
+
 ## Development
 
 ```bash
