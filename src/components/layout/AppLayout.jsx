@@ -1,8 +1,8 @@
-import './Layout.css'
+import './AppLayout.css'
 import { Outlet, useLocation } from 'react-router-dom'
 import { Navbar } from './Navbar'
 
-export function Layout() {
+export function AppLayout() {
   const { pathname } = useLocation()
   const isHomePage = pathname === '/'
 

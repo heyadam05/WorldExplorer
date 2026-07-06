@@ -1,5 +1,5 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import { Layout } from '../components/layout/Layout'
+import { AppLayout } from '../components/layout/AppLayout'
 import { HomePage } from '../pages/Home/HomePage'
 import { CountriesPage } from '../pages/Countries/CountriesPage'
 import { CountryDetailPage } from '../pages/CountryDetail/CountryDetailPage'
@@ -9,7 +9,7 @@ import { FavoritesPage } from '../pages/Favorites/FavoritesPage'
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Layout />,
+    element: <AppLayout />,
     children: [
       {
         index: true,
