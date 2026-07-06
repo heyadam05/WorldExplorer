@@ -1,0 +1,10 @@
+.country-map {
+  width: 100%;
+  min-height: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.leaflet-container {
+  font-family: inherit;
+}

@@ -1,0 +1,21 @@
+.compare-page__table-container {
+    padding: 10px;
+    background-color: white;
+    margin-top: 50px;
+}
+
+.compare-page__table-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.compare-page__table-container th, .compare-page__table-container td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.compare-page__table-container th {
+    border-bottom: 3px solid #ddd;
+    font-weight: bold;
+}

@@ -1,0 +1,26 @@
+:root {
+  --color-background: #f8fafc;
+  --color-navbar: rgba(255, 255, 255, 0.68);
+  --color-navbar-border: rgba(15, 23, 42, 0.08);
+  --color-surface: #ffffff;
+  --color-border: #e2e8f0;
+  --color-text: #0f172a;
+  --color-muted: #64748b;
+  --color-primary: #2563eb;
+  --color-theme-bg: #0F172A;
+  --color-theme-icon: #9CA3AF;
+}
+
+/* Dark theme when `html` has .dark class */
+html.dark {
+  --color-background: #0b1220;
+  --color-navbar: #212D3B;
+  --color-navbar-border: #485563;
+  --color-surface: #1C242F;
+  --color-border: #1f2937;
+  --color-text: #f8fafc;
+  --color-muted: #94a3b8;
+  --color-primary: #2563eb;
+  --color-theme-bg: #0F172A;
+  --color-theme-icon: #9CA3AF;
+}

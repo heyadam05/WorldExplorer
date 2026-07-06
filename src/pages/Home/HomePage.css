@@ -1,0 +1,53 @@
+.home-page {
+  min-height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(180deg, #67c6e8 0%, #eef7fb 54%, #f8fafc 100%);
+}
+
+.home-hero {
+  position: relative;
+  display: grid;
+  place-items: center;
+  min-height: 90vh;
+  overflow: hidden;
+  padding-top: 90px;
+  background:
+    linear-gradient(180deg,rgba(103, 198, 232, 0.38) 0%,rgba(248, 250, 252, 0.15) 44%,rgba(248, 250, 252, 0.92) 100%),
+    url('./../../assets/images/world-map.png');
+  background-blend-mode: screen;
+  background-position: center 5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-hero__content {
+  display: grid;
+  justify-items: center;
+  gap: 14px;
+  max-width: 860px;
+  padding: 34px 24px 120px;
+  text-align: center;
+}
+
+.home-hero h1 {
+  margin: 0;
+  color: #0f172a;
+  font-size: clamp(2.5rem, 6vw, 4.2rem);
+  font-weight: 800;
+  line-height: 1.02;
+}
+
+.home-hero p {
+  max-width: 850px;
+  margin: 0;
+  color: #334155;
+  font-size: 1.5rem;
+}
+
+.home-hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 4px;
+}

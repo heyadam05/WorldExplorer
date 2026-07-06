@@ -1,0 +1,10 @@
+.country-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 230px));
+  gap: 22px;
+  justify-content: start;
+}
+
+.country-list__empty {
+  color: var(--color-muted);
+}

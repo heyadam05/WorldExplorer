@@ -1,0 +1,8 @@
+
+.countries-status {
+  color: var(--color-muted);
+}
+
+.countries-status--error {
+  color: #dc2626;
+}
